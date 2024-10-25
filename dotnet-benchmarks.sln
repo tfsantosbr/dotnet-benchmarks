@@ -1,30 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{661AF2CC-EB6A-4B4C-89D6-ED72D40FD5CE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1111B178-A487-46AB-B46A-7184D022B47B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHA256vsMD5.Benchmark", "src\SHA256vsMD5.Benchmark\SHA256vsMD5.Benchmark.csproj", "{2E706C44-8EA2-4642-89E5-958537CA0D46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperVsNativeMap", "src\AutoMapperVsNativeMap\AutoMapperVsNativeMap.csproj", "{2FD272B2-BE21-43C3-8DE5-EE08D75A399C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E706C44-8EA2-4642-89E5-958537CA0D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E706C44-8EA2-4642-89E5-958537CA0D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E706C44-8EA2-4642-89E5-958537CA0D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E706C44-8EA2-4642-89E5-958537CA0D46}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{2E706C44-8EA2-4642-89E5-958537CA0D46} = {661AF2CC-EB6A-4B4C-89D6-ED72D40FD5CE}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD272B2-BE21-43C3-8DE5-EE08D75A399C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD272B2-BE21-43C3-8DE5-EE08D75A399C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD272B2-BE21-43C3-8DE5-EE08D75A399C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD272B2-BE21-43C3-8DE5-EE08D75A399C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B7CC6751-F1BE-4602-B487-0DEEB49FDA61}
+	GlobalSection(NestedProjects) = preSolution
+		{2FD272B2-BE21-43C3-8DE5-EE08D75A399C} = {1111B178-A487-46AB-B46A-7184D022B47B}
 	EndGlobalSection
 EndGlobal
