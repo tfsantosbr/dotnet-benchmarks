@@ -3,6 +3,9 @@ using BenchmarkDotNet.Attributes;
 
 namespace SHA256vsMD5.Benchmark;
 
+[MemoryDiagnoser]
+[ThreadingDiagnoser]
+[ExceptionDiagnoser]
 public class Md5VsSha256
 {
     private const int N = 10000;
